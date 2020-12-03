@@ -17,10 +17,15 @@ Laravel でローカル開発を始めるのに必要な土台環境
 ## 使い方
 
 ```
+(local)$ cd docker
 (local)$ docker-compose up -d
 (local)$ docker-compose exec php bash
 
 (docker)$ composer create-project "laravel/laravel=8.*" .
 ```
 
+## 注意点
+
+* 初回 mysql-primary が立ち上がるまでの待ち時間がテキトウです。
+* そのため、初回replica関連でコケるかもしれません。
 

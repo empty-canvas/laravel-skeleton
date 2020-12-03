@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sleep 15
+
 mysql -u root -h mysql-primary -e "RESET MASTER;"
 mysql -u root -h mysql-primary -e "FLUSH TABLES WITH READ LOCK;"
 
