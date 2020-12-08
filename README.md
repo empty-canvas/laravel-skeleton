@@ -1,4 +1,4 @@
-# laravel skelton
+# laravel skeleton
 
 ## 概要
 
